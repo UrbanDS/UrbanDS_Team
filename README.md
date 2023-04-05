@@ -24,6 +24,6 @@ Land cover variables derived from USGS National Land Cover Database (National La
 ## Models
 ### Random Forest
 ### Geographically Weighted Random Forest (GWRF)
-
+We used SpatialML package in R to build GWRF. (https://cran.r-project.org/web/packages/SpatialML/SpatialML.pdf)
 ## Results
 We developed a dashboard showing our results. (https://tamu.maps.arcgis.com/apps/dashboards/83a779c859a84203addb316bcf30c012)
