@@ -24,9 +24,12 @@ Land cover variables derived from USGS National Land Cover Database (National La
 ## Models
 ### Random Forest
 A random forest is a meta estimator that fits a number of classifying decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. The sub-sample size is controlled with the max_samples parameter if bootstrap=True (default), otherwise the whole dataset is used to build each tree.
-
+![Partial Dependence Plots for All Variables in RF](https://github.com/UrbanDS/UrbanDS_Team/blob/main/Figure/Partial%20Dependence%20Plots%20for%20All%20Variables%20in%20RF.jpg)
+**Fig. Partial Dependence Plots for All Variables in RF**
 ### Geographically Weighted Random Forest (GWRF)
 We used SpatialML package in R to build GWRF. (https://cran.r-project.org/web/packages/SpatialML/SpatialML.pdf)
-![alt text](https://github.com/UrbanDS/UrbanDS_Team/blob/main/Figure/Local%20variable%20importance%20plots%20in%20GWRF.jpg)
+![Local variable importance plots in GWRF](https://github.com/UrbanDS/UrbanDS_Team/blob/main/Figure/Local%20variable%20importance%20plots%20in%20GWRF.jpg)
+**Fig. Local variable importance plots in GWRF**
 ## Results
 We developed a dashboard showing our results. (https://tamu.maps.arcgis.com/apps/dashboards/83a779c859a84203addb316bcf30c012)
+![Dashboard](https://github.com/UrbanDS/UrbanDS_Team/blob/main/Figure/Dashboard.png)
