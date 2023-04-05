@@ -23,6 +23,7 @@ Some natural environment variables derived from the North American Land Data Ass
 Land cover variables derived from USGS National Land Cover Database (National Land Cover Database | U.S. Geological Survey, n.d.) (https://www.usgs.gov/centers/eros/science/national-land-cover-database)
 ## Models
 ### Random Forest
+
 ### Geographically Weighted Random Forest (GWRF)
 We used SpatialML package in R to build GWRF. (https://cran.r-project.org/web/packages/SpatialML/SpatialML.pdf)
 ## Results
