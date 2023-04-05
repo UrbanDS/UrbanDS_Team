@@ -23,7 +23,8 @@ Some natural environment variables derived from the North American Land Data Ass
 Land cover variables derived from USGS National Land Cover Database (National Land Cover Database | U.S. Geological Survey, n.d.) (https://www.usgs.gov/centers/eros/science/national-land-cover-database)
 ## Models
 ### Random Forest
-
+A random forest is a meta estimator that fits a number of classifying decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. The sub-sample size is controlled with the max_samples parameter if bootstrap=True (default), otherwise the whole dataset is used to build each tree.
+![alt text]()
 ### Geographically Weighted Random Forest (GWRF)
 We used SpatialML package in R to build GWRF. (https://cran.r-project.org/web/packages/SpatialML/SpatialML.pdf)
 ## Results
